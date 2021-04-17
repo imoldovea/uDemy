@@ -60,3 +60,5 @@ def crosssover(p1, p2, gama=0.1):
     c1.position = alpha * p1.position + (1 - alpha) * p2.postion
     c2.position = alpha * p2.position + (1 - alpha) * p1.postion
     return c1, c2
+
+
